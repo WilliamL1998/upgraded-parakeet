@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 98vh;
+}
+
+.greeting {
+  font-size: 3rem;
+}
+
+.William {
+  color: var(--aquaMarine);
+}
+
+.prompt {
+  font-size: 3rem;
+}
+
+.skills {
+  color: var(--aquaMarine);
+}

@@ -1,0 +1,50 @@
+Nav {
+  background-color: var(--darkGrey);
+  top: 0;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  font-size: 1.5rem;
+}
+
+.nav-logo {
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-logo a {
+  color: var(--brightWhite);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-logo :hover, .nav-link :hover {
+  background-color: var(--aquaMarine);
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-link a{
+  color: var(--brightWhite);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
