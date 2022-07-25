@@ -9,4 +9,10 @@
 
 .aboutMeContainer {
   width: 60%;
+  font-size: 3rem;
+}
+
+.aboutMeContainer p {
+  font-size: 1.5rem;
+  text-align: left;
 }

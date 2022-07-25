@@ -42,28 +42,31 @@ const Contact = () => {
 
   return (
     <div className = "contact" id = "contactId">
-      <h1>Contact</h1>
+      Contact
       <form className = "contactForm">
+        <p>Name</p>
         <input
           value={name}
           name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="name"
+          placeholder="Your name..."
         />
+        <p>Email</p>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="text"
-          placeholder="email"
+          placeholder="Your email..."
         />
+        <p>Message</p>
         <input
           value={message}
-          name="messsage"
+          name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="message"
+          placeholder="Write me a message..."
         />
         <button type="button" onClick={handleFormSubmit}>Send Message</button>
       </form>
