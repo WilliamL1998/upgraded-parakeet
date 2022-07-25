@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/upgraded-parakeet/static/css/main.617be34d.css",
+    "main.js": "/upgraded-parakeet/static/js/main.7e2d21e8.js",
+    "static/media/ExpressMovies.png": "/upgraded-parakeet/static/media/ExpressMovies.b80bbc27c204867156e0.png",
+    "static/media/EmployeeTracker.png": "/upgraded-parakeet/static/media/EmployeeTracker.82c27eab58909696c436.png",
+    "static/media/WhatTheFridge.png": "/upgraded-parakeet/static/media/WhatTheFridge.881357bb96032337f9b8.png",
+    "static/media/TeamProfileGenerator.png": "/upgraded-parakeet/static/media/TeamProfileGenerator.edddb19c74e00e683c51.png",
+    "static/media/SocialNetworkAPI.png": "/upgraded-parakeet/static/media/SocialNetworkAPI.928e0a4b1e910d2790b2.png",
+    "static/media/WeatherDashboard.png": "/upgraded-parakeet/static/media/WeatherDashboard.7ce536dd672773620863.png",
+    "index.html": "/upgraded-parakeet/index.html",
+    "main.617be34d.css.map": "/upgraded-parakeet/static/css/main.617be34d.css.map",
+    "main.7e2d21e8.js.map": "/upgraded-parakeet/static/js/main.7e2d21e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.617be34d.css",
+    "static/js/main.7e2d21e8.js"
+  ]
+}
