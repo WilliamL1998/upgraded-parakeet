@@ -4,10 +4,10 @@ import "../styles/Resume.css"
 const Resume = () => {
   return (
     <div className='resume'>
-      <h1>Resume</h1>
+      <p>Resume</p>
       <div className='resumeContainer'>
         <div className='resumeCard'>
-          <h3>resume here</h3>
+          <p>resume here</p>
         </div>
       </div>
     </div>
