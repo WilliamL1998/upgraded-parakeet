@@ -109,7 +109,7 @@ const Portfolio = () => {
                 </a>
               </div>
             </div>
-            <p className = "cardDescription">{description}<br></br><br></br>
+            <p className = "cardDescription">{description}<br /><br />
             Technologies used:
             <ul className='cardTechnologies'>
               {technologies.map((tech, j) => (
