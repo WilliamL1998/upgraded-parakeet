@@ -33,4 +33,11 @@ button {
   cursor: pointer;
   color: var(--brightWhite);
   background-color: var(--aquaMarine);
+  transition: all 0.25s ease;
+  transform: scale(1);
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.25);
 }

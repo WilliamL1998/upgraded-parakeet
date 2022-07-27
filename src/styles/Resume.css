@@ -15,3 +15,16 @@
 .resume p {
   font-size: 3rem;
 }
+
+.resumeCard a {
+  color: var(--brightWhite);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.resumeCard a:hover {
+  background-color: var(--aquaMarine);
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}

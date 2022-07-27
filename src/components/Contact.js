@@ -1,8 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { validateEmail } from "../utils/helpers"
 import "../styles/Contact.css"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
+  const form = useRef();
+
   const [name, setName] = useState("")
   const [message, setMessage] = useState("")
   const [email, setEmail] = useState("")
@@ -33,6 +36,23 @@ const Contact = () => {
       setErrorMessage("Please fill out the form to submit")
       return;
     }
+    if ( name || message || email) {
+      emailjs.sendForm(
+        "service_q65yffd",
+        "template_jchn488",
+        form.current,
+        "9wOn__hQUV4ml5Bzp"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      )
+    }
 
     setName("");
     setMessage("");
@@ -43,7 +63,7 @@ const Contact = () => {
   return (
     <div className = "contact" id = "contactId">
       Contact
-      <form className = "contactForm">
+      <form ref = {form} className = "contactForm">
         <p>Name</p>
         <input
           value={name}

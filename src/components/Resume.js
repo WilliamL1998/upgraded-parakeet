@@ -7,7 +7,7 @@ const Resume = () => {
       <p>Resume</p>
       <div className='resumeContainer'>
         <div className='resumeCard'>
-          <p>resume here</p>
+          <a href="resume/Resume.pdf" download>Click to download</a>
         </div>
       </div>
     </div>
