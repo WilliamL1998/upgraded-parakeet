@@ -24,7 +24,7 @@ After following the installation instruction, type "npm start" in terminal.
 Head to:
 https://williaml1998.github.io/upgraded-parakeet/
 Or:
-https://williamliao.herokuapp.com/#AboutMe
+https://williamliao.herokuapp.com/
 to see the site.
 
 ## Contributing
