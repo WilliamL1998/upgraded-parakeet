@@ -9,6 +9,7 @@ import WeatherDashboard from "../images/WeatherDashboard.png"
 import SocialNetworkAPI from "../images/SocialNetworkAPI.png"
 import EmployeeTracker from "../images/EmployeeTracker.png"
 import TeamProfileGenerator from "../images/TeamProfileGenerator.png"
+import FashionECommerce from "../images/FashionECommerce.png"
 
 const projectList = [
   {
@@ -87,6 +88,21 @@ const projectList = [
     technologies: [
       "Node.js",
       "Inquirer.js"
+    ]
+  },
+  {
+    title: "Fashion E-Commerce",
+    image: FashionECommerce,
+    link: "https://damp-earth-50504.herokuapp.com/",
+    github: "https://github.com/andresparraarze/project-3",
+    description: "An e-commerce site that sells luxury fashion products.",
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "GraphQL",
+      "Apollo Client"
     ]
   },
 ]
