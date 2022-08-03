@@ -21,8 +21,10 @@ After cloning the repo down onto your local machine, type "npm install" in termi
 
 After following the installation instruction, type "npm start" in terminal.
 
-Or go to:
+Head to:
 https://williaml1998.github.io/upgraded-parakeet/
+Or:
+https://williamliao.herokuapp.com/
 to see the site.
 
 ## Contributing
